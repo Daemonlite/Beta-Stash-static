@@ -2,3 +2,71 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+
+.small {
+  display: none !important;
+}
+.dropdown-menu {
+  color: #fff !important;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.or {
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.home{
+  margin-top:100px;
+}
+.links{
+  text-decoration: none;
+  color: #fff;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 10px;
+}
+.nav-link{
+  color:#fff !important;
+  display:flex !important;
+}
+.acc{
+  color:#fff;
+  margin-top:13px;
+  margin-left: 10px;
+}
+.menu{
+  color:#fff;
+}
+@media only screen and (max-width: 768px) {
+  .small {
+    display: block !important;
+  }
+  .headText {
+    margin-left: 40px;
+  }
+  .head-para {
+    width: 385px;
+  }
+  .head {
+    margin-top: -40px;
+  }
+  .headtext {
+    width: 350px;
+  }
+
+  .list, .navigate, .out,.texts{
+    display:none;
+  }
+  .comp{
+    width:300px;
+    margin-bottom: 50px;
+  }
+}
