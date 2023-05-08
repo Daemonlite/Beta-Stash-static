@@ -50,6 +50,16 @@ a{
   width: 500px;
   margin-top: 50px;
 }
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.services{
+  text-align: center;
+  margin-top: 50px;
+}
 @media only screen and (max-width: 768px) {
   .small {
     display: block !important;
