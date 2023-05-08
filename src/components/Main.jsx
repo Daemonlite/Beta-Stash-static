@@ -231,12 +231,58 @@ const Main = () => {
       <br />
       <br />
       <h3 className='contact' id='contact'>Contact Us Now</h3>
-      <Box
+     <div className='orm'>
+     <Box
       component="form"
       action="https://getform.io/f/d7955f9d-4ec9-4a00-ab7c-7ca88b2e2afb"
       method='POST'
       sx={{
         '& .MuiTextField-root': { m: 1, width: '45ch' },
+      }}
+      noValidate
+      autoComplete="off"
+      
+    >
+      <div className='form'>
+        <TextField
+          id="outlined-multiline-flexible"
+          label="Your Name"
+          multiline
+          name='Name'
+          maxRows={4}
+          className='fields'
+        />
+        <TextField
+          id="outlined-textarea"
+          label="Email"
+          placeholder="Email"
+          multiline
+          name="email"
+          className='fields'
+        />
+        <TextField
+          id="outlined-multiline-static"
+          label="Message.."
+          multiline
+          rows={4}
+          defaultValue=""
+          name='message'
+          className='fields'
+        />
+        <Button type='submit' variant="contained" sx={{width:"25%"}} className='butt'>Submit</Button>
+        <br />
+      </div>
+
+
+    </Box>
+     </div>
+     <div className="nope">
+     <Box
+      component="form"
+      action="https://getform.io/f/d7955f9d-4ec9-4a00-ab7c-7ca88b2e2afb"
+      method='POST'
+      sx={{
+        '& .MuiTextField-root': { m: 1, width: '25ch' },
       }}
       noValidate
       autoComplete="off"
@@ -248,6 +294,7 @@ const Main = () => {
           multiline
           name='Name'
           maxRows={4}
+          className='fields'
         />
         <TextField
           id="outlined-textarea"
@@ -255,6 +302,7 @@ const Main = () => {
           placeholder="Email"
           multiline
           name="email"
+          className='fields'
         />
         <TextField
           id="outlined-multiline-static"
@@ -263,14 +311,16 @@ const Main = () => {
           rows={4}
           defaultValue=""
           name='message'
+          className='fields'
         />
-        <Button type='submit' variant="contained" sx={{width:"25%"}}>Submit</Button>
+        <Button type='submit' variant="contained" sx={{width:"50%"}} className='butt'>Submit</Button>
         <br />
       </div>
 
 
     </Box>
       
+      </div> 
     </div>
   );
 };

@@ -95,6 +95,9 @@ a:hover{
 .contact{
   text-align: center;
 }
+.nope{
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .small {
     display: block !important;
@@ -127,6 +130,12 @@ a:hover{
     margin-top: 15px;
     border-radius: 10px;
   }
+  .sub{
+    width: 100%;
+  }
+.orm{
+  display: none;
+}
   .abt-img{
     width: 350px;
     margin-top: 15px;
@@ -134,5 +143,8 @@ a:hover{
   }
   .about-text{
     width:300px;
+  }
+  .nope{
+    display: block;
   }
 }
