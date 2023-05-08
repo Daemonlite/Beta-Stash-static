@@ -100,7 +100,7 @@ a:hover{
 }
 @media only screen and (max-width: 768px) {
   .small {
-    display: block !important;
+    display: none !important;
   }
   .head-para {
     width: 385px;
