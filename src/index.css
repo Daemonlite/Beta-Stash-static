@@ -65,8 +65,35 @@ a{
   gap: 20px;
   flex-wrap: wrap;
 }
-a::after{
+a:hover{
   color:#fff;
+}
+.abd{
+  margin-top: 50px;
+  text-align: center;
+}
+.about{
+  margin-top: 50px;
+  display: flex;
+  gap: 32px;
+  justify-content:center ;
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+}
+.about-text{
+  width: 500px;
+}
+.abt-img{
+  width: 500px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  text-align: center;
 }
 @media only screen and (max-width: 768px) {
   .small {
@@ -99,5 +126,13 @@ a::after{
     width: 350px;
     margin-top: 15px;
     border-radius: 10px;
+  }
+  .abt-img{
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  .about-text{
+    width:300px;
   }
 }
