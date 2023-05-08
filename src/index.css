@@ -6,15 +6,7 @@
 .small {
   display: none !important;
 }
-.dropdown-menu {
-  color: #fff !important;
-  margin-right: 20px;
-  margin-top: 10px;
-}
 
-.or {
-  text-align: center;
-}
 a{
   text-decoration: none;
   color: #000;
@@ -37,20 +29,30 @@ a{
   color:#fff !important;
   display:flex !important;
 }
-.acc{
-  color:#fff;
-  margin-top:13px;
-  margin-left: 10px;
+.landing{
+  margin-top: 100px;
+  display: flex;
+  justify-content:center ;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.menu{
-  color:#fff;
+
+.land{
+  width:520px;
+}
+.land-descr{
+  width: 400px;
+}
+.land-Text{
+  margin-top: 100px;
+}
+.land-img{
+  width: 500px;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 768px) {
   .small {
     display: block !important;
-  }
-  .headText {
-    margin-left: 40px;
   }
   .head-para {
     width: 385px;
@@ -58,8 +60,10 @@ a{
   .head {
     margin-top: -40px;
   }
-  .headtext {
+  .land,.land-descr {
     width: 350px;
+    margin-left: 3
+    0px;
   }
 
   .list, .navigate, .out,.texts{
@@ -68,5 +72,13 @@ a{
   .comp{
     width:300px;
     margin-bottom: 50px;
+  }
+  .land-Text{
+    margin-top: 20px;
+  }
+  .land-img{
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 10px;
   }
 }
