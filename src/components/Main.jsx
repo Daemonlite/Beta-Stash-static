@@ -1,7 +1,7 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
 
-const Topnav = () => {
+const Main = () => {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark fixed-top">
@@ -100,8 +100,32 @@ const Topnav = () => {
           </div>
         </div>
       </nav>
+
+      {/* main */}
+
+      <div className="landing">
+        <div className="land-Text">
+          <h1 className="land">
+            We bring solutions to make life easier for our customers.
+          </h1>
+          <p className="land-descr">
+            {" "}
+            We offer a wide range of web services to help you establish and grow
+            your online presence. Whether you're a small business owner, an
+            entrepreneur, or just starting out on your online journey, we've got
+            you covered.
+          </p>
+        </div>
+        <div className="">
+          <img
+            src="https://sandbox-react.netlify.app/img/photos/about7.jpg"
+            alt="land-img"
+            className='land-img'
+          />
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Topnav;
+export default Main;
