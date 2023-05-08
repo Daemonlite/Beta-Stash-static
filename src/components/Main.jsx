@@ -110,36 +110,35 @@ const Main = () => {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li className="nav-item">
-                  <a
-                    className="nav-link active"
-                    aria-current="page"
-                    href="#home"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#about">
-                    About Us{" "}
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#services">
-                    Services
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Blog Page
-                  </a>
-                </li>
+              <li>
+              <a href="#home" className="links">
+                Home
+              </a>
+            </li>
+            <br />
+            <li>
+              <a href="#about" className="links">
+                About Us
+              </a>
+            </li>
+            <br />
+            <li>
+              <a href="#services" className="links">
+                Services
+              </a>
+            </li>
+            <br />
+            <li>
+              <a href="/home" className="links">
+                Blog Page
+              </a>
+            </li>
                 <br />
-                <li>
-                  <Button variant="contained" style={{ width: "100%" }}>
+            
+                  <Button variant="contained" style={{ width: "100%" }} component='a' href='#contact'>
                     Contact Us
                   </Button>
-                </li>
+                
               </ul>
             </div>
           </div>
