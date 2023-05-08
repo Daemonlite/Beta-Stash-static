@@ -50,6 +50,24 @@ a{
   width: 500px;
   margin-top: 50px;
 }
+.butt{
+  width: 70%;
+}
+.serv{
+  text-align: center;
+  margin-top: 50px;
+}
+.services{
+  text-align: center;
+  margin-top: 50px;
+  display:flex ;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+a::after{
+  color:#fff;
+}
 @media only screen and (max-width: 768px) {
   .small {
     display: block !important;
@@ -57,9 +75,7 @@ a{
   .head-para {
     width: 385px;
   }
-  .head {
-    margin-top: -40px;
-  }
+
   .land,.land-descr {
     width: 350px;
     margin-left: 3
@@ -74,7 +90,10 @@ a{
     margin-bottom: 50px;
   }
   .land-Text{
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+  .butt{
+    width: 100%;
   }
   .land-img{
     width: 350px;
