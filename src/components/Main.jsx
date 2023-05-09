@@ -51,7 +51,7 @@ const Main = () => {
     <div>
       <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/home">
+          <a className="navbar-brand" href="#home">
             Beta Stash
           </a>
           {/* nav links here */}
@@ -72,7 +72,7 @@ const Main = () => {
               </a>
             </li>
             <li>
-              <a href="/home" className="links">
+              <a href="https://medium.com/@paakwesinunoo135" className="links" target="_blank" rel="noreferrer">
                 Blog Page
               </a>
             </li>
@@ -129,7 +129,7 @@ const Main = () => {
             </li>
             <br />
             <li>
-              <a href="/home" className="links">
+              <a href="/blog" className="links">
                 Blog Page
               </a>
             </li>
