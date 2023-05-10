@@ -5,8 +5,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 const Main = () => {
   const servicesData = [
@@ -72,13 +72,20 @@ const Main = () => {
               </a>
             </li>
             <li>
-              <a href="https://medium.com/@paakwesinunoo135" className="links" target="_blank" rel="noreferrer">
+              <a
+                href="https://medium.com/@paakwesinunoo135"
+                className="links"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Blog Page
               </a>
             </li>
           </ul>
           <div className="navigate">
-            <Button variant="contained" component='a' href='#contact'>Contact Us</Button>
+            <Button variant="contained" component="a" href="#contact">
+              Contact Us
+            </Button>
           </div>
 
           <button
@@ -110,35 +117,39 @@ const Main = () => {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li>
-              <a href="#home" className="links">
-                Home
-              </a>
-            </li>
-            <br />
-            <li>
-              <a href="#about" className="links">
-                About Us
-              </a>
-            </li>
-            <br />
-            <li>
-              <a href="#services" className="links">
-                Services
-              </a>
-            </li>
-            <br />
-            <li>
-              <a href="/blog" className="links">
-                Blog Page
-              </a>
-            </li>
+                <li>
+                  <a href="#home" className="links">
+                    Home
+                  </a>
+                </li>
                 <br />
-            
-                  <Button variant="contained" style={{ width: "100%" }} component='a' href='#contact'>
-                    Contact Us
-                  </Button>
-                
+                <li>
+                  <a href="#about" className="links">
+                    About Us
+                  </a>
+                </li>
+                <br />
+                <li>
+                  <a href="#services" className="links">
+                    Services
+                  </a>
+                </li>
+                <br />
+                <li>
+                  <a href="/blog" className="links">
+                    Blog Page
+                  </a>
+                </li>
+                <br />
+
+                <Button
+                  variant="contained"
+                  style={{ width: "100%" }}
+                  component="a"
+                  href="#contact"
+                >
+                  Contact Us
+                </Button>
               </ul>
             </div>
           </div>
@@ -175,7 +186,7 @@ const Main = () => {
           />
         </div>
       </div>
-      <h3 className="serv" id="services">
+      <h3 className="serv sec-Text" id="services">
         We offer a wide range of services including :
       </h3>
       <div className="services">
@@ -199,7 +210,7 @@ const Main = () => {
           </div>
         ))}
       </div>
-      <h3 className="abd alert alert-secondary">Know More About Us</h3>
+      <h3 className="abd sec-Text">Know More About Us</h3>
       <div className="about" id="about">
         <div className="about-image">
           <img
@@ -221,105 +232,214 @@ const Main = () => {
           vision to life. We pride ourselves on our attention to detail,
           communication, and ability to deliver projects on time and within
           budget. Let us help you take your online presence to the next level!
-        
-          <Button variant="contained" style={{ width: "70%",marginTop:'30px',marginBottom:'20px' }}>
+          <Button
+            variant="contained"
+            style={{ width: "70%", marginTop: "30px", marginBottom: "20px" }}
+          >
             Support Us
           </Button>
         </div>
       </div>
       <br />
+      <h3 className="sec-Text">Why You Should Choose Us</h3>
       <br />
-      <h3 className='contact' id='contact'>Contact Us Now</h3>
-     <div className='orm'>
-     <Box
-      component="form"
-      action="https://getform.io/f/d7955f9d-4ec9-4a00-ab7c-7ca88b2e2afb"
-      method='POST'
-      sx={{
-        '& .MuiTextField-root': { m: 1, width: '45ch' },
-      }}
-      noValidate
-      autoComplete="off"
-      
-    >
-      <div className='form'>
-        <TextField
-          id="outlined-multiline-flexible"
-          label="Your Name"
-          multiline
-          name='Name'
-          maxRows={4}
-          className='fields'
-        />
-        <TextField
-          id="outlined-textarea"
-          label="Email"
-          placeholder="Email"
-          multiline
-          name="email"
-          className='fields'
-        />
-        <TextField
-          id="outlined-multiline-static"
-          label="Message.."
-          multiline
-          rows={4}
-          defaultValue=""
-          name='message'
-          className='fields'
-        />
-        <Button type='submit' variant="contained" sx={{width:"25%"}} className='butt'>Submit</Button>
-        <br />
+      <br />
+      <section className="why">
+        <div className="all">
+          <div className="sec-icon">
+            <img
+              src="https://assets-global.website-files.com/63d3b504212f2224c6e39423/6400ae272975152c9d6399f5_Icon.png"
+              alt="icon"
+              className="sec-img"
+            />
+          </div>
+          <h4 className="sec-head">HIGHLY PROCESS-ORIENTED</h4>
+          <div className="sec-body">
+            We follow battle-tested, unique processes for everything that we do,
+            ensuring high-quality, efficient, and debt-free delivery.
+          </div>
+        </div>
+
+        <div className="all">
+          <div className="sec-icon">
+            <img
+              src="https://assets-global.website-files.com/63d3b504212f2224c6e39423/6400ae1365c28436f96bad45_Icon-4.png"
+              alt="icon"
+              className="sec-img"
+            />
+          </div>
+          <h4 className="sec-head">PARTNER & ADVISOR</h4>
+          <div className="sec-body">
+            We take strong ownership of the projects we work on, meaning you can
+            expect a business partner ready to help you every step of the way.
+          </div>
+
+        </div>
+
+        <div className="all">
+          <div className="sec-icon">
+            <img
+              src="https://assets-global.website-files.com/63d3b504212f2224c6e39423/6400ae13f098d3c8f71e4560_Icon.png"
+              alt="icon"
+              className="sec-img"
+            />
+          </div>
+          <h4 className="sec-head">WORK WITH THE BEST</h4>
+          <div className="sec-body">
+            Best-in-class African-based developers with years of experience
+            across different industries, using top processes to deliver
+            high-quality products.
+          </div>
+        </div>
+
+        <div className="all">
+          <div className="sec-icon">
+            <img
+              src="https://assets-global.website-files.com/63d3b504212f2224c6e39423/6400ae14a51435e2b5a93f55_Icon-3.png"
+              alt="icon"
+              className="sec-img"
+            />
+          </div>
+          <h4 className="sec-head">FULL TRANSPARENCY</h4>
+          <div className="sec-body">
+            We provide transparent and clear communication, project management,
+            and budgeting.
+          </div>
+        </div>
+
+        <div className="all">
+          <div className="sec-icon">
+            <img
+              src="https://assets-global.website-files.com/63d3b504212f2224c6e39423/6400ae1436e5d65f1fe8ca1c_Icon-2.png"
+              alt="icon"
+              className="sec-img"
+            />
+          </div>
+          <h4 className="sec-head">DIGITAL ACCELERATION</h4>
+          <div className="sec-body">
+            We focus on doing the right things to fuel your growth, nothing
+            more, nothing less.
+          </div>
+        </div>
+
+        <div className="all">
+          <div className="sec-icon">
+            <img
+              src="https://assets-global.website-files.com/63d3b504212f2224c6e39423/6400ae14baa506f2df133e0f_Icon-1.png"
+              alt="icon"
+              className="sec-img"
+            />
+          </div>
+          <h4 className="sec-head">TECHNICAL EXCELLENCY</h4>
+          <div className="sec-body">
+            Our agile engineering practices will bring software craftsmanship,
+            quality, and consistency to the table, all in a flexible state to
+            guarantee ever-changing requirements.
+          </div>
+        </div>
+      </section>
+      <br />
+      <h3 className="contact" id="contact">
+        Contact Us Now
+      </h3>
+      <div className="orm">
+        <Box
+          component="form"
+          action="https://getform.io/f/d7955f9d-4ec9-4a00-ab7c-7ca88b2e2afb"
+          method="POST"
+          sx={{
+            "& .MuiTextField-root": { m: 1, width: "45ch" },
+          }}
+          noValidate
+          autoComplete="off"
+        >
+          <div className="form">
+            <TextField
+              id="outlined-multiline-flexible"
+              label="Your Name"
+              multiline
+              name="Name"
+              maxRows={4}
+              className="fields"
+            />
+            <TextField
+              id="outlined-textarea"
+              label="Email"
+              placeholder="Email"
+              multiline
+              name="email"
+              className="fields"
+            />
+            <TextField
+              id="outlined-multiline-static"
+              label="Message.."
+              multiline
+              rows={4}
+              defaultValue=""
+              name="message"
+              className="fields"
+            />
+            <Button
+              type="submit"
+              variant="contained"
+              sx={{ width: "25%" }}
+              className="butt"
+            >
+              Submit
+            </Button>
+            <br />
+          </div>
+        </Box>
       </div>
-
-
-    </Box>
-     </div>
-     <div className="nope">
-     <Box
-      component="form"
-      action="https://getform.io/f/d7955f9d-4ec9-4a00-ab7c-7ca88b2e2afb"
-      method='POST'
-      sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <div className='form'>
-        <TextField
-          id="outlined-multiline-flexible"
-          label="Your Name"
-          multiline
-          name='Name'
-          maxRows={4}
-          className='fields'
-        />
-        <TextField
-          id="outlined-textarea"
-          label="Email"
-          placeholder="Email"
-          multiline
-          name="email"
-          className='fields'
-        />
-        <TextField
-          id="outlined-multiline-static"
-          label="Message.."
-          multiline
-          rows={4}
-          defaultValue=""
-          name='message'
-          className='fields'
-        />
-        <Button type='submit' variant="contained" sx={{width:"50%"}} className='butt'>Submit</Button>
-        <br />
+      <div className="nope">
+        <Box
+          component="form"
+          action="https://getform.io/f/d7955f9d-4ec9-4a00-ab7c-7ca88b2e2afb"
+          method="POST"
+          sx={{
+            "& .MuiTextField-root": { m: 1, width: "25ch" },
+          }}
+          noValidate
+          autoComplete="off"
+        >
+          <div className="form">
+            <TextField
+              id="outlined-multiline-flexible"
+              label="Your Name"
+              multiline
+              name="Name"
+              maxRows={4}
+              className="fields"
+            />
+            <TextField
+              id="outlined-textarea"
+              label="Email"
+              placeholder="Email"
+              multiline
+              name="email"
+              className="fields"
+            />
+            <TextField
+              id="outlined-multiline-static"
+              label="Message.."
+              multiline
+              rows={4}
+              defaultValue=""
+              name="message"
+              className="fields"
+            />
+            <Button
+              type="submit"
+              variant="contained"
+              sx={{ width: "50%" }}
+              className="butt"
+            >
+              Submit
+            </Button>
+            <br />
+          </div>
+        </Box>
       </div>
-
-
-    </Box>
-      
-      </div> 
     </div>
   );
 };
