@@ -98,6 +98,27 @@ a:hover{
 .nope{
   display: none;
 }
+.sec-Text{
+  color: blue;
+  text-align: center;
+}
+.sec-img{
+  width: 50px;
+}
+.sec-body{
+  width: 400px;
+}
+.why{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 50px;
+}
+.sec-head{
+  color: #555;
+}
 @media only screen and (max-width: 768px) {
   .small {
     display: none !important;
@@ -110,6 +131,12 @@ a:hover{
     width: 350px;
     margin-left: 3
     0px;
+  }
+  .sec-body{
+    width: 350px;
+  }
+  .sec-Text{
+    color: #555;
   }
 
   .list, .navigate, .out,.texts{
@@ -136,6 +163,9 @@ a:hover{
 .orm{
   display: none;
 }
+
+
+
   .abt-img{
     width: 350px;
     margin-top: 15px;
