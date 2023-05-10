@@ -132,6 +132,12 @@ a:hover{
     margin-left: 3
     0px;
   }
+  .sec-body{
+    width: 350px;
+  }
+  .sec-Text{
+    color: #555;
+  }
 
   .list, .navigate, .out,.texts{
     display:none;
